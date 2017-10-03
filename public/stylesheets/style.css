@@ -1,8 +1,17 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body{
+  text-align: center;
 }
 
-a {
-  color: #00B7FF;
+.title-text{
+  font-family: 'Bitter', serif;
+  font-size: 50px;
+}
+
+.info{
+  padding: 0px 40px 0px 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.info-group{
+  margin-bottom: 30px;
 }

@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <% include _head %>
   </head>
   <body>
+
+    <div class="container title">
+      <h1>PUERTO RICO</h1>
+      <h1>RESOURCES - RECURSOS</h1>
+    </div>
+
+    <div class="container info">
+      <h4>English: Vetted resources for Maria victims in Puerto Rico. If sending to loved ones in PR, copy and paste the information, as they may not be able to load this website and have limited data. Email us <a href="mailto:info@prmaria.com">info@prmaria.com</a> if you need help or have suggestions.</h4>
+      <br>
+      <br>
+      <h4>Espanol: Esta lista consiste de recursos confirmados para la gente afectada por Huracán María. Si envía esta lista a amigos y familiares en la isla, por favor dale copy/paste porque probablemente no tienen suficiente aceso a data para bajar la página. Envíanos un e-mail al <a href="mailto:info@prmaria.com">info@prmaria.com</a> si necesita ayuda o tiene algunas sugerencias</h4>
+    </div>
+
+    <div class="info-group">
+      <div class="title">
+        <i class="fa fa-home fa-4x" aria-hidden="true"></i>
+        <span class="title-text">  SHELTER - REFUGIO</span>
+      </div>
+      
+      <div class="info">
+        <h2><a a href="https://www.elnuevodia.com/noticias/locales/nota/conocecualessonlosrefugiosdisponiblesanteelpasodeirma-2354876/">List of Shelters - Lista de Refugios</a></h2>
+        <h2><a a href="https://www.thesatoproject.org/">Animal Shelters - Refugios para Animales</a></h2>
+      </div>
+    </div>
+    
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
   </body>
